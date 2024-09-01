@@ -8,8 +8,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+            <link rel="icon" type="image/x-icon" href="Bokehlicia-Captiva-Weather.256.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather Around The World</title>
 </head>
 
 <body>
@@ -309,6 +310,53 @@
 
     .humidity, .wind {
         font-size: 18px;
+    }
+}
+
+        @media (max-width: 320px) {
+    .card {
+        padding: 10px 8px; /* Further reduced padding */
+        margin: 10px auto; /* Further adjusted margin */
+    }
+
+    .search input {
+        height: 35px; /* Further reduced height */
+        font-size: 12px; /* Further reduced font size */
+        padding: 6px 8px; /* Adjusted padding */
+    }
+
+    .search button {
+        width: 35px; /* Further reduced size */
+        height: 35px; /* Further reduced size */
+    }
+
+    .search button img {
+        width: 10px; /* Further reduced icon size */
+    }
+
+    .weather-icon {
+        width: 85%; /* Increased relative width */
+        max-width: 80px; /* Further reduced max width */
+    }
+
+    .weather h1 {
+        font-size: 14vw; /* Adjusted for very small screens */
+    }
+
+    .weather h2 {
+        font-size: 10vw; /* Adjusted for very small screens */
+    }
+
+    .details {
+        margin-top: 10px; /* Further reduced margin */
+    }
+
+    .col img {
+        width: 20px; /* Further reduced icon size */
+    }
+
+    .humidity, .wind {
+        font-size: 16px; /* Further reduced font size */
     }
 }
     </style>
